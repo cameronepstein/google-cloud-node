@@ -1,6 +1,6 @@
 {
   "name": "google-cloud-node",
-  "version": "1.1",
+  "version": "1.0.0",
   "private": "true",
   "devDependencies": {
     "array-uniq": "^1.0.3",
