@@ -20,7 +20,7 @@ var async = require('async');
 var fs = require('fs');
 var path = require('path');
 
-// require('shelljs/global');
+require('shelljs/global');
 
 var directories = fs.readdirSync(path.join(__dirname, '../packages'));
 var PARALLEL_LIMIT = Math.floor(directories.length / 2);
