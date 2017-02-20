@@ -80,6 +80,8 @@ function Document(language, config) {
     this.document.language = config.language;
   }
 
+  this.document.language = "en";
+
   if (config.type) {
     this.document.type = config.type.toUpperCase();
 
@@ -1131,4 +1133,3 @@ Document.sortByProperty_ = function(propertyName) {
 common.util.promisifyAll(Document);
 
 module.exports = Document;
-
